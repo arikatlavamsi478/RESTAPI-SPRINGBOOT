@@ -1,0 +1,12 @@
+logging:
+  level:
+    org:
+      springframework: info
+server:
+  port: 7777
+spring:
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+  profiles:
+    active: dev
